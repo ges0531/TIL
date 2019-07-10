@@ -4,7 +4,8 @@ import csv
 
 url = 'https://www.melon.com/chart/index.htm'
 
-headers = {'User-Agent': ':)'} # 어떤 애들은 필요한 몇몇 정보가 더 있다.
+headers = {'User-Agent': ':)'}
+# 어떤 애들은 필요한 몇몇 정보가 더 있다.
 
 response = requests.get(url, headers=headers).text
 
