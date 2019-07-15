@@ -5,7 +5,7 @@ url = 'https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=866'
 
 response = requests.get(url).text
 # print(response)
-# print(type(response))
+print(type(response))
 # print(dict(response))
 
 data = json.loads(response)
