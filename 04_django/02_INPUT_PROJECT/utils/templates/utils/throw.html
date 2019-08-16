@@ -1,0 +1,18 @@
+{% extends 'utils/base.html' %}
+{% block title %}THROW{% endblock %}
+{% block body %}
+<h1>점심 메뉴 추천</h1>
+<p>배가 고프다</p>
+<form action="/utils/catch/" method="GET">
+  <div>
+    <label for="name">이름</label>
+    <input id="name" name="user-input" type="text">
+  </div>
+  <div>
+    <input name="user-gender" value="hungry" type="radio">배고프다
+    <input name="user-gender" value="very_hungry" type="radio">매우 배고프다
+  <div>
+    <input type="submit" value="추천!">
+  </div>
+</form>
+{% endblock %}

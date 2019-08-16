@@ -1,0 +1,67 @@
+/* p 요소중에 첫번째 자식을 선택 */
+article:first-of-type {
+    background-color: red;
+}
+
+/* p 요소중에 4번째 자식을 선택 */
+article:nth-of-type(2) {
+    background-color: green;
+}
+
+/* p 요소중에 4번째 자식을 선택 */
+article:nth-last-of-type(2) {
+    background-color: blue;
+}
+
+/* p 요소중에 마지막 자식을 선택 */
+article:last-of-type {
+    background-color: black;
+}
+/* 첫째인데 까고보니 p ★ */
+p:first-child {
+    color: darkblue;
+}
+
+/* 막내인데 까고보니 p ★ */
+p:last-child {
+    color: violet;
+}
+
+/* 부모는 모르겠고 4번째인데 까고보니 p ★ */
+p:nth-child(4) {
+    color: gold;
+}
+
+
+
+
+
+
+
+/* pseudo class selector */
+/*  상태에 따라 클래스를 바꾼다. */
+/*  selector: 가상-클래스 */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 방문하지 않은 link */
+a:link {
+    color: red;
+}
+
+a:hover {
+    color: orange;
+}
+
+/* 방문한 link */
+a:visited {
+    color: bisque;
+}
+
+input:focus {
+    background-color: black;
+    color: white; 
+}

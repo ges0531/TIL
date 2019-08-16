@@ -1,0 +1,21 @@
+div {
+    border: solid 1px black;
+    padding: 10px 1px 10px 10px;
+    /* 상 하 좌 우 */
+    margin: 10px;
+}
+
+div.a {
+    /* border는 나눌 수 있다. */
+    border-style: dotted;
+    border-width: 2px;
+    border-color: red;
+    padding: 20px;
+    /* 상하좌우 */
+    margin: 50px 30px;
+    /* 상하 좌우 */
+}
+
+.like-p {
+    margin: 1rem 0;
+}

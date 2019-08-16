@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS basic</title>
+    <style>
+        /* 우선순위 !important > > inline css > id > ★class★ > tag >>>> browser 기본 세팅*/
+        /* !important, id는 사용하지 않음, 알고만 있을것, 선택을 위해 존재, 스타일을 위해 존재x */
+
+        * {
+            /* margin, padding 여백과 관련된 스타일 */
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: red;
+
+        }
+
+        /* !important는 조커같은 느낌 */
+        h2 {
+            color: pink !important;
+        }
+
+        h3 {
+            color: brown;
+        }
+        /* .을 사용하면 class 속성을 가진 곳에 스타일 적용 */
+        /* Selector Specificity가 (0, 0, 1) (0, 1, 0)이면 우선순위는 후자가 더 높다 */
+        .blue {
+            color: blue;
+        }
+
+        .big {
+            font-size: 100px;
+        }
+
+        /* #은 id에 스타일 적용 */
+        #green {
+            color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class='big'>Hello, CSS</h1>    
+    <h2 id="green" class="blue">Selector</h2>
+    <h3 class="blue big">See how it works</h3>
+</body>
+</html>
