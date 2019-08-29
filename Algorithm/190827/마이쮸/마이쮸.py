@@ -24,28 +24,29 @@ def isFull():
     return rear == len(Q) - 1
 
 
-def my_candy(a):
-    global count, r1
-    enQ(a)
-    r1 += 1
-    count -= r1
-    deQ()
-    enQ(a)
-    print(count)
+
 
 
 Q = [0] * 100
 front = rear = -1
 count = 20
-i = 1
-r1 = 0
+student = [1] * 20
+sn = 1
+nextsn = 2
+
+rear += 1
+Q[r] = sn
+
 while count != 0:
-    input()
-    print('Q in {}'.format(rear-front))
-    input()
-    print('cnady_count: {}'.format(i))
-    input()
-    print('give_candy: {}'.format(r1))
-    my_candy(i)
-    i += 1
-print(i)
+    front += 1:
+    sn = Q[front]
+    candis -= student[sn]
+    student[sn] += 1
+
+    if candis <= 0:
+        print('{}번 학생이 마지막 사탕을 받아간다.'.format(sn))
+        break
+    rear += 1
+    Q[rear] = sn
+    rear += 1
+    Q[rear] = sn
