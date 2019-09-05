@@ -5,18 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deb16c6d-fcc3-4ee8-97e3-fc6bc711725d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/190903/의석이의 세로로 말해요/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190903/의석이의 세로로 말해요/의석이의 세로로 말해요.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190903/재미있는 오셀로 게임/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190903/재미있는 오셀로 게임/오셀로_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190903/재미있는 오셀로 게임/재미있는 오셀로 게임.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190903/정곤이의 단조 증가하는 수/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190903/정곤이의 단조 증가하는 수/정곤_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190903/정곤이의 단조 증가하는 수/현동_정곤.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190903/퇴사/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190903/퇴사/퇴사.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190903/파리 퇴치/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190903/파리 퇴치/파리 퇴치.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190904/수의 새로운 연산/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190904/수의 새로운 연산/수의 새로운 연산.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190904/어디에 단어가 들어갈 수 있을까/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190904/어디에 단어가 들어갈 수 있을까/어디에 단어가 들어갈 수 있을까.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190904/파스칼의 삼각형/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190904/파스칼의 삼각형/파스칼의 삼각형.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190905/17135. 캐슬 디펜스/17135. 캐슬 디펜스.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190905/17135. 캐슬 디펜스/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190905/2589. 보물섬/2589. 보물섬.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190905/2589. 보물섬/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190905/2636. 치즈/2636. 치즈.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190905/2636. 치즈/BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190905/2636. 치즈/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190905/2636. 치즈/치즈_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190905/2636. 치즈/치즈_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190905/미로의 거리/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190905/미로의 거리/미로의 거리.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190905/순열/순열.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190905/숫자 배열 회전/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190905/숫자 배열 회전/숫자 배열 회전.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,59 +72,56 @@
     <session id="-1236196959">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="7" />
-          <entry key="project.open.time.3" value="5" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.open.time.3" value="6" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="169" />
-          <entry key="txt" value="62" />
+          <entry key="py" value="193" />
+          <entry key="txt" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="62" />
-          <entry key="Python" value="169" />
+          <entry key="PLAIN_TEXT" value="73" />
+          <entry key="Python" value="193" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="44778" />
-          <entry key="txt" value="118" />
+          <entry key="py" value="53652" />
+          <entry key="txt" value="122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="118" />
-          <entry key="Python" value="44778" />
+          <entry key="PLAIN_TEXT" value="122" />
+          <entry key="Python" value="53652" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/190903/재미있는 오셀로 게임/재미있는 오셀로 게임.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/190905/숫자 배열 회전/숫자 배열 회전.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            <state relative-caret-position="399">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/190903/재미있는 오셀로 게임/오셀로_2.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/190905/숫자 배열 회전/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="55" column="30" lean-forward="true" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
-              <folding>
-                <marker date="1567500722375" expanded="true" signature="47:48" ph="..." />
-              </folding>
+            <state relative-caret-position="1026">
+              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -141,25 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/190827/시험/원자소멸 시뮬레이션 2019/원자소멸 시뮬레이션 2019.py" />
-        <option value="$PROJECT_DIR$/190829/개미의 이동 거리/test.py" />
-        <option value="$PROJECT_DIR$/190829/개미의 이동 거리/test/input.txt" />
-        <option value="$PROJECT_DIR$/190829/개미의 이동 거리/test/test.py" />
-        <option value="$PROJECT_DIR$/190829/개미의 이동 거리/test/padding.py" />
-        <option value="$PROJECT_DIR$/190829/개미의 이동 거리/개미의 이동 거리.py" />
-        <option value="$PROJECT_DIR$/190829/개미의 이동 거리/input.txt" />
-        <option value="$PROJECT_DIR$/190829/토끼와 사냥꾼/input.txt" />
-        <option value="$PROJECT_DIR$/190829/토끼와 사냥꾼/토끼_2.py" />
-        <option value="$PROJECT_DIR$/190829/토끼와 사냥꾼/토끼와 사냥꾼.py" />
-        <option value="$PROJECT_DIR$/190829/개미의 이동 거리/개미_2.py" />
-        <option value="$PROJECT_DIR$/190829/7일차. 행렬찾기/input.txt" />
-        <option value="$PROJECT_DIR$/190829/7일차. 행렬찾기/7일차. 행렬찾기.py" />
-        <option value="$PROJECT_DIR$/190829/7일차. 행렬찾기/행렬_1.py" />
-        <option value="$PROJECT_DIR$/190829/기지국/input.txt" />
-        <option value="$PROJECT_DIR$/190829/기지국/기지국.py" />
-        <option value="$PROJECT_DIR$/190829/참외밭/input.txt" />
-        <option value="$PROJECT_DIR$/190829/참외밭/test.py" />
-        <option value="$PROJECT_DIR$/190829/참외밭/참외밭.py" />
         <option value="$PROJECT_DIR$/190902/삼성시의 버스 노선.py" />
         <option value="$PROJECT_DIR$/190902/test_2/test_2.py" />
         <option value="$PROJECT_DIR$/190902/삼성시의 버스 노선/input.txt" />
@@ -192,6 +178,25 @@
         <option value="$PROJECT_DIR$/190903/정곤이의 단조 증가하는 수/현동_정곤.py" />
         <option value="$PROJECT_DIR$/190903/재미있는 오셀로 게임/오셀로_2.py" />
         <option value="$PROJECT_DIR$/190903/재미있는 오셀로 게임/재미있는 오셀로 게임.py" />
+        <option value="$PROJECT_DIR$/190904/파스칼의 삼각형/input.txt" />
+        <option value="$PROJECT_DIR$/190904/파스칼의 삼각형/파스칼의 삼각형.py" />
+        <option value="$PROJECT_DIR$/190904/어디에 단어가 들어갈 수 있을까/input.txt" />
+        <option value="$PROJECT_DIR$/190904/어디에 단어가 들어갈 수 있을까/어디에 단어가 들어갈 수 있을까.py" />
+        <option value="$PROJECT_DIR$/190904/수의 새로운 연산/input.txt" />
+        <option value="$PROJECT_DIR$/190904/수의 새로운 연산/수의 새로운 연산.py" />
+        <option value="$PROJECT_DIR$/190905/숫자 배열 회전/input.txt" />
+        <option value="$PROJECT_DIR$/190905/보물섬/보물섬.py" />
+        <option value="$PROJECT_DIR$/190905/17135. 캐슬 디펜스/17135. 캐슬 디펜스.py" />
+        <option value="$PROJECT_DIR$/190905/2589. 보물섬/2589. 보물섬.py" />
+        <option value="$PROJECT_DIR$/190905/2636. 치즈/2636. 치즈.py" />
+        <option value="$PROJECT_DIR$/190905/2636. 치즈/치즈_2.py" />
+        <option value="$PROJECT_DIR$/190905/2636. 치즈/input.txt" />
+        <option value="$PROJECT_DIR$/190905/순열/순열.py" />
+        <option value="$PROJECT_DIR$/190905/2636. 치즈/치즈_3.py" />
+        <option value="$PROJECT_DIR$/190905/2636. 치즈/BFS.py" />
+        <option value="$PROJECT_DIR$/190905/미로의 거리/input.txt" />
+        <option value="$PROJECT_DIR$/190905/미로의 거리/미로의 거리.py" />
+        <option value="$PROJECT_DIR$/190905/숫자 배열 회전/숫자 배열 회전.py" />
       </list>
     </option>
   </component>
@@ -219,13 +224,13 @@
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="190903" type="462c0819:PsiDirectoryNode" />
+              <item name="190905" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="190903" type="462c0819:PsiDirectoryNode" />
-              <item name="의석이의 세로로 말해요" type="462c0819:PsiDirectoryNode" />
+              <item name="190905" type="462c0819:PsiDirectoryNode" />
+              <item name="숫자 배열 회전" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,15 +243,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\student\TIL\Algorithm\못품" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\student\TIL\Algorithm\190824" />
       <recent name="C:\Users\student\TIL\Algorithm\190902\삼성시의 버스 노선" />
       <recent name="C:\Users\student\TIL\Algorithm\190829\개미의 이동 거리\test" />
       <recent name="C:\Users\student\TIL\Algorithm\190827\시험\색칠하기" />
       <recent name="C:\Users\student\TIL\Algorithm\190827\시험" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\student\TIL\Algorithm\못품" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -261,8 +266,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.오셀로_2">
-    <configuration name="재미있는 오셀로 게임" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.숫자 배열 회전">
+    <configuration name="숫자 배열 회전" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -270,11 +275,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190903/재미있는 오셀로 게임" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190905/숫자 배열 회전" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190903/재미있는 오셀로 게임/재미있는 오셀로 게임.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190905/숫자 배열 회전/숫자 배열 회전.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,7 +288,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="현동_정곤" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="미로의 거리" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -291,11 +296,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190903/정곤이의 단조 증가하는 수" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190905/미로의 거리" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190903/정곤이의 단조 증가하는 수/현동_정곤.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190905/미로의 거리/미로의 거리.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,7 +309,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="정곤_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="순열" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,11 +317,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190903/정곤이의 단조 증가하는 수" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190905/순열" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190903/정곤이의 단조 증가하는 수/정곤_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190905/순열/순열.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="치즈_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TIL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190905/2636. 치즈" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190905/2636. 치즈/치즈_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -346,7 +372,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="정곤_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="치즈_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -354,11 +380,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190903/정곤이의 단조 증가하는 수" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190905/2636. 치즈" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190903/정곤이의 단조 증가하는 수/정곤_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190905/2636. 치즈/치즈_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -368,19 +394,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.정곤_2" />
-      <item itemvalue="Python.정곤_3" />
-      <item itemvalue="Python.재미있는 오셀로 게임" />
-      <item itemvalue="Python.오셀로_2" />
-      <item itemvalue="Python.현동_정곤" />
+      <item itemvalue="Python.치즈_2" />
+      <item itemvalue="Python.치즈_3" />
+      <item itemvalue="Python.순열" />
+      <item itemvalue="Python.미로의 거리" />
+      <item itemvalue="Python.숫자 배열 회전" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.오셀로_2" />
-        <item itemvalue="Python.현동_정곤" />
-        <item itemvalue="Python.재미있는 오셀로 게임" />
-        <item itemvalue="Python.정곤_2" />
-        <item itemvalue="Python.정곤_3" />
+        <item itemvalue="Python.숫자 배열 회전" />
+        <item itemvalue="Python.미로의 거리" />
+        <item itemvalue="Python.순열" />
+        <item itemvalue="Python.치즈_3" />
+        <item itemvalue="Python.치즈_2" />
       </list>
     </recent_temporary>
   </component>
@@ -405,7 +431,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2850877" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28179824" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -464,169 +490,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/190829/토끼와 사냥꾼/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190829/개미의 이동 거리/개미_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="67" column="32" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190829/7일차. 행렬찾기/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9956">
-          <caret line="524" lean-forward="true" selection-start-line="524" selection-end-line="524" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190829/7일차. 행렬찾기/행렬_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190829/기지국/기지국.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190829/기지국/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190829/참외밭/참외밭.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190829/참외밭/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="18" selection-end-line="30" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190829/참외밭/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190902/삼성시의 버스 노선/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/DList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1032" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190902/test_3/test_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190827/큐 구현/큐 구현.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190828/10일차 - Contact/10일차 - Contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190902/삼성시의 버스 노선/삼성시의 버스 노선.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190902/10일차. Contac/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="877" selection-start-line="19" selection-start-column="877" selection-end-line="19" selection-end-column="877" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190901/10일차. 작업순서/작업_2.py" />
-    <entry file="file://$PROJECT_DIR$/190824/4871. 그래프 경로/4871. 그래프 경로.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="27" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190824/4871. 그래프 경로/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190902/4880. 토너먼트 카드게임/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190902/4880. 토너먼트 카드게임/4880. 토너먼트 카드게임.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190826/4881. 배열 최소 합/배열_2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190826/4881. 배열 최소 합/4881. 배열 최소 합.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190828/5105. 미로의 거리/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190826/4881. 배열 최소 합/배열 최소 합.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/190827/연습문제3/연습문제3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -697,9 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <marker date="1567391722330" expanded="true" signature="352:542" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,20 +573,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/190903/정곤이의 단조 증가하는 수/정곤이의 단조 증가하는 수.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="18" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190903/정곤이의 단조 증가하는 수/정곤_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="31" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/190903/정곤이의 단조 증가하는 수/정곤이의 단조 증가하는 수.py" />
+    <entry file="file://$PROJECT_DIR$/190903/정곤이의 단조 증가하는 수/정곤_2.py" />
     <entry file="file://$PROJECT_DIR$/190903/정곤이의 단조 증가하는 수/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -772,20 +620,178 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/190903/재미있는 오셀로 게임/오셀로_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+          <folding>
+            <marker date="1567500722375" expanded="true" signature="47:48" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/190903/재미있는 오셀로 게임/재미있는 오셀로 게임.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="532">
           <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/190903/재미있는 오셀로 게임/오셀로_2.py">
+    <entry file="file://$PROJECT_DIR$/190904/파스칼의 삼각형/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="55" column="30" lean-forward="true" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        <state relative-caret-position="190">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190902/삼성시의 버스 노선/삼성시의 버스 노선.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190904/어디에 단어가 들어갈 수 있을까/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190904/어디에 단어가 들어갈 수 있을까/어디에 단어가 들어갈 수 있을까.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190904/수의 새로운 연산/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190904/수의 새로운 연산/수의 새로운 연산.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="36" selection-end-column="65" />
           <folding>
-            <marker date="1567500722375" expanded="true" signature="47:48" ph="..." />
+            <marker date="1567642912602" expanded="true" signature="211:456" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190904/파스칼의 삼각형/파스칼의 삼각형.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190905/17135. 캐슬 디펜스/input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190905/보물섬/input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190905/보물섬/보물섬.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190905/17135. 캐슬 디펜스/17135. 캐슬 디펜스.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190905/2589. 보물섬/input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190905/2589. 보물섬/2589. 보물섬.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190905/2636. 치즈/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190826/4875. 미로/4875. 미로_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190829/개미의 이동 거리/개미_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="65" selection-start-line="65" selection-end-line="70" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190905/2636. 치즈/치즈_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190905/2636. 치즈/2636. 치즈.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <marker date="1567660555871" expanded="true" signature="581:585" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190905/2636. 치즈/치즈_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190905/순열/순열.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190905/미로의 거리/미로의 거리.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="43" selection-end-column="51" />
+          <folding>
+            <marker date="1567679410210" expanded="true" signature="104:997" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190905/2636. 치즈/BFS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190905/미로의 거리/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190905/숫자 배열 회전/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190905/숫자 배열 회전/숫자 배열 회전.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
