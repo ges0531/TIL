@@ -4,11 +4,13 @@ sys.stdin = open('input.txt', 'r')
 
 
 def short_track(start_node):
+    global my_real_max
     queue = [start_node]
     visited = [[0]*map_row for _ in range(map_column)]
     visited[start_node[0]][start_node[1]] = 1
     location = []
     end_location = [0]
+    my_real_max = 0
     while queue:
         a = queue.pop(0)
         for i in range(4):
@@ -26,15 +28,18 @@ def short_track(start_node):
         for row_1 in range(len(visited[0])):
             if visited[column_1][row_1] == my_max:
                 location.append([column_1, row_1])
-    if len(location) == 1:
-        return location
-    else:
-        for j in range(len(location)-1):
-            if abs(start_node[0]-location[j][0]) + abs(start_node[1]-location[j][1]) < abs(start_node[0]-location[j+1][0]) + abs(start_node[1]-location[j+1][1]):
-                end_location[0] = [location[j][0], location[j][1]]
-            else:
-                end_location[0] = [location[j+1][0], location[j+1][1]]
-        return end_location
+
+    if my_max > my_real_max:
+        my_real_max = my_max
+    # if len(location) == 1:
+    #     return location
+    # else:
+    #     for j in range(len(location)-1):
+    #         if abs(start_node[0]-location[j][0]) + abs(start_node[1]-location[j][1]) < abs(start_node[0]-location[j+1][0]) + abs(start_node[1]-location[j+1][1]):
+    #             end_location[0] = [location[j][0], location[j][1]]
+    #         else:
+    #             end_location[0] = [location[j+1][0], location[j+1][1]]
+    #     return end_location
 
 
 
@@ -49,4 +54,5 @@ for test_case in range(1, T+1):
     result = [0]
     for column_2 in range(len(map_location)):
         for row_2 in range(len(map_location)):
-            result = short_track([column_2, row_2]).pop()
+            result = short_track([column_2, row_2])
+    print(my_real_max-1)
