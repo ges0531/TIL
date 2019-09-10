@@ -7,11 +7,11 @@ def DFS(start_node):
     stack = [start_node]
     visited = [[0]*4 for _ in range(4)]
     visited[start_node[0]][start_node[1]] = 1
-    b = 0
+    count = 0
     while stack:
-        if b == 1:
-            break
         a = stack.pop()
+        visited[a[0]][a[1]] = 1
+        count += 1
         for i in range(4):
             y = a[0]
             x = a[1]
@@ -19,12 +19,9 @@ def DFS(start_node):
             idx = x+dx[i]
             if 0 <= idy < 4 and 0 <= idx < 4:
                 if visited[idy][idx] == 0:
-                    visited[idy][idx] = visited[y][x] + 1
-                    stack.append([y, x])
                     stack.append([idy, idx])
-                    if visited[idy][idx] == 7:
-                        b = 1
-                    break
+        if count > 6:
+            break
     for j in visited:
         print(j)
 

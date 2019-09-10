@@ -9,6 +9,7 @@ def DFS(start_node):
     visited[start_node[0]][start_node[1]] = 1
     while stack:
         a = stack.pop()
+        visited[a[0]][a[1]] = 1
         for i in range(4):
             y = a[0]
             x = a[1]
@@ -17,8 +18,6 @@ def DFS(start_node):
             if 0 <= idy < matrix_column and 0 <= idx < matrix_row:
                 if visited[idy][idx] == 0:
                     if matrix[idy][idx] == 0:
-                        visited[idy][idx] = 1
-                        stack.append([y, x])
                         stack.append([idy, idx])
     for j in visited:
         print(j)

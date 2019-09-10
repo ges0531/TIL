@@ -29,4 +29,5 @@ for k in range(node_count):
         if middle[kk-1] == 0:
             middle.pop()
     result.append(middle)
+print(result)
 preorder_traverse(1)
