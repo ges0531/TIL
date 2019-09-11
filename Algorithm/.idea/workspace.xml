@@ -5,21 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deb16c6d-fcc3-4ee8-97e3-fc6bc711725d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/190910/5174. subtree/5174. subtree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190910/5174. subtree/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190910/5176. 이진탐색/5176. 이진탐색.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190910/5176. 이진탐색/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190910/5176. 이진탐색/이진 탐색_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190910/5176. 이진탐색/이진 탐색_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190910/5176. 이진탐색/이진 탐색_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190910/5177. 이진 힙/5177. 이진 힙.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/190910/5177. 이진 힙/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190910/5177. 이진 힙/이진 힙.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190911/test_1/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190911/test_1/test_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190911/test_2/test_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190911/test_3/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190911/test_3/test_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190911/비트 연산/비트 연산.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190911/예제 5/예제_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/190911/예제3/예제3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/190907/practice/DFS_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/190907/practice/DFS_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/190909/9일차 - 중위순회/9일차. 중위순회.py" beforeDir="false" afterPath="$PROJECT_DIR$/190909/9일차 - 중위순회/9일차. 중위순회.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/190909/test/test_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/190909/test/test_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/190909/격자판의 숫자 이어 붙이기/격자판의 숫자 이어 붙이기.py" beforeDir="false" afterPath="$PROJECT_DIR$/190909/격자판의 숫자 이어 붙이기/격자판의 숫자 이어 붙이기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/190909/최적 경로/최적경로_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/190909/최적 경로/최적경로_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/190910/5177. 이진 힙/5177. 이진 힙.py" beforeDir="false" afterPath="$PROJECT_DIR$/190910/5177. 이진 힙/5177. 이진 힙.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,60 +63,65 @@
     <session id="-1236196959">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.2" value="10" />
+          <entry key="project.open.time.2" value="11" />
           <entry key="project.open.time.3" value="9" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="250" />
-          <entry key="txt" value="91" />
+          <entry key="py" value="263" />
+          <entry key="txt" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="90" />
-          <entry key="Python" value="249" />
+          <entry key="PLAIN_TEXT" value="93" />
+          <entry key="Python" value="262" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="75061" />
-          <entry key="txt" value="259" />
+          <entry key="py" value="77184" />
+          <entry key="txt" value="306" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="235" />
-          <entry key="Python" value="68340" />
+          <entry key="PLAIN_TEXT" value="282" />
+          <entry key="Python" value="70463" />
           <entry key="Scratch" value="6745" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/190910/5177. 이진 힙/5177. 이진 힙.py">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/190907/practice/DFS_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="114">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/190911/test_2/test_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/190910/5177. 이진 힙/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/190907/practice/input.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -143,15 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/190905/17135. 캐슬 디펜스/17135. 캐슬 디펜스.py" />
-        <option value="$PROJECT_DIR$/190905/2636. 치즈/2636. 치즈.py" />
-        <option value="$PROJECT_DIR$/190905/2636. 치즈/치즈_2.py" />
-        <option value="$PROJECT_DIR$/190905/2636. 치즈/input.txt" />
-        <option value="$PROJECT_DIR$/190905/순열/순열.py" />
-        <option value="$PROJECT_DIR$/190905/2636. 치즈/치즈_3.py" />
-        <option value="$PROJECT_DIR$/190905/2636. 치즈/BFS.py" />
-        <option value="$PROJECT_DIR$/190905/미로의 거리/input.txt" />
-        <option value="$PROJECT_DIR$/190905/미로의 거리/미로의 거리.py" />
         <option value="$PROJECT_DIR$/190822/4866. 괄호검사/4866. 괄호검사.py" />
         <option value="$PROJECT_DIR$/190906/격자판의 숫자 이어 붙이기/격자판의 숫자 이어 붙이기.py" />
         <option value="$PROJECT_DIR$/190906/3일차 - 최적 경로/input.txt" />
@@ -187,18 +180,27 @@
         <option value="$PROJECT_DIR$/190910/5174. subtree/5174. subtree.py" />
         <option value="$PROJECT_DIR$/190910/5176. 이진탐색/input.txt" />
         <option value="$PROJECT_DIR$/190910/5176. 이진탐색/이진 탐색_2.py" />
-        <option value="$PROJECT_DIR$/190907/practice/DFS_2.py" />
         <option value="$PROJECT_DIR$/190909/격자판의 숫자 이어 붙이기/격자판의 숫자 이어 붙이기.py" />
         <option value="$PROJECT_DIR$/190910/5176. 이진탐색/이진 탐색_3.py" />
         <option value="$PROJECT_DIR$/190910/5176. 이진탐색/5176. 이진탐색.py" />
         <option value="$PROJECT_DIR$/190910/5176. 이진탐색/이진 탐색_4.py" />
         <option value="$PROJECT_DIR$/190910/5177. 이진 힙/input.txt" />
         <option value="$PROJECT_DIR$/190910/5177. 이진 힙/5177. 이진 힙.py" />
+        <option value="$PROJECT_DIR$/190910/5177. 이진 힙/이진 힙.py" />
+        <option value="$PROJECT_DIR$/190911/비트 연산/비트 연산.py" />
+        <option value="$PROJECT_DIR$/190911/test_1/input.txt" />
+        <option value="$PROJECT_DIR$/190911/예제3/예제3.py" />
+        <option value="$PROJECT_DIR$/190911/예제 5/예제_5.py" />
+        <option value="$PROJECT_DIR$/190911/test_1/test_1.py" />
+        <option value="$PROJECT_DIR$/190911/test_3/input.txt" />
+        <option value="$PROJECT_DIR$/190911/test_3/test_3.py" />
+        <option value="$PROJECT_DIR$/190907/practice/DFS_2.py" />
+        <option value="$PROJECT_DIR$/190911/test_2/test_2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -210,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,30 +222,13 @@
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="190907" type="462c0819:PsiDirectoryNode" />
+              <item name="190911" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="190907" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="190910" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="190910" type="462c0819:PsiDirectoryNode" />
-              <item name="5174. subtree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="190910" type="462c0819:PsiDirectoryNode" />
-              <item name="5176. 이진탐색" type="462c0819:PsiDirectoryNode" />
+              <item name="190911" type="462c0819:PsiDirectoryNode" />
+              <item name="test_2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -259,6 +243,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,91 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.5177. 이진 힙">
-    <configuration name="격자판의 숫자 이어 붙이기" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TIL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190909/격자판의 숫자 이어 붙이기" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190909/격자판의 숫자 이어 붙이기/격자판의 숫자 이어 붙이기.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="이진 탐색_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TIL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190910/5176. 이진탐색" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190910/5176. 이진탐색/이진 탐색_3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5176. 이진탐색" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TIL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190910/5176. 이진탐색" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190910/5176. 이진탐색/5176. 이진탐색.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5177. 이진 힙" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TIL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190910/5177. 이진 힙" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190910/5177. 이진 힙/5177. 이진 힙.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test_2">
     <configuration name="DFS_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -396,7 +297,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="오셀로_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="예제_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TIL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -404,11 +305,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190903/재미있는 오셀로 게임" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190911/예제 5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190903/재미있는 오셀로 게임/오셀로_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190911/예제 5/예제_5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TIL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190911/test_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190911/test_1/test_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TIL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190911/test_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190911/test_2/test_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TIL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/190911/test_3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/190911/test_3/test_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -418,19 +382,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.5176. 이진탐색" />
-      <item itemvalue="Python.이진 탐색_3" />
+      <item itemvalue="Python.test_1" />
+      <item itemvalue="Python.예제_5" />
+      <item itemvalue="Python.test_2" />
+      <item itemvalue="Python.test_3" />
       <item itemvalue="Python.DFS_2" />
-      <item itemvalue="Python.격자판의 숫자 이어 붙이기" />
-      <item itemvalue="Python.5177. 이진 힙" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.5177. 이진 힙" />
-        <item itemvalue="Python.이진 탐색_3" />
-        <item itemvalue="Python.5176. 이진탐색" />
-        <item itemvalue="Python.격자판의 숫자 이어 붙이기" />
+        <item itemvalue="Python.test_2" />
         <item itemvalue="Python.DFS_2" />
+        <item itemvalue="Python.test_3" />
+        <item itemvalue="Python.test_1" />
+        <item itemvalue="Python.예제_5" />
       </list>
     </recent_temporary>
   </component>
@@ -448,15 +412,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1741453" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08587988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2872807" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2844734" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -522,55 +485,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/190905/미로의 거리/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190905/숫자 배열 회전/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190822/4866. 괄호검사/4866. 괄호검사.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190906/격자판의 숫자 이어 붙이기/격자판의 숫자 이어 붙이기.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190906/격자판의 숫자 이어 붙이기/input.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190905/2636. 치즈/BFS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190906/3일차 - 최적 경로/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/powerset.py" />
-    <entry file="file://$PROJECT_DIR$/190906/가능한 시험 점수/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/190828/5099. 피자 굽기/5099. 피자 굽기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -685,13 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/190907/practice/DFS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/190909/최적 경로/최적 경로.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -741,13 +648,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/190909/최적 경로/최적 경로_6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/190909/최적 경로/최적 경로_6.py" />
     <entry file="file://$PROJECT_DIR$/190909/최적 경로/최적경로_4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
@@ -783,23 +684,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/190907/practice/input.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190907/practice/DFS_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/190909/격자판의 숫자 이어 붙이기/격자판의 숫자 이어 붙이기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <marker date="1568090335497" expanded="true" signature="69:624" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -814,13 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/190910/5176. 이진탐색/5176. 이진탐색.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -845,10 +726,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/190910/5176. 이진탐색/5176. 이진탐색.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/190910/5177. 이진 힙/5177. 이진 힙.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="323">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190910/5177. 이진 힙/이진 힙.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190911/비트 연산/비트 연산.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <marker date="1568166195152" expanded="true" signature="18:23" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190911/test_1/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="75" selection-start-column="75" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190911/예제3/예제3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190911/예제 5/예제_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <marker date="1568172062332" expanded="true" signature="18:23" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190911/test_1/test_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190911/test_3/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="69" selection-start-column="69" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190911/test_3/test_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="8" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190907/practice/DFS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190907/practice/input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190907/practice/DFS_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/190911/test_2/test_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
         </state>
       </provider>
     </entry>

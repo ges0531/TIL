@@ -7,9 +7,11 @@ def DFS(start_node):
     stack = [start_node]
     visited = [[0]*matrix_row for _ in range(matrix_column)]
     visited[start_node[0]][start_node[1]] = 1
+    count = 1
     while stack:
         a = stack.pop()
-        visited[a[0]][a[1]] = 1
+        visited[a[0]][a[1]] = count
+        count += 1
         for i in range(4):
             y = a[0]
             x = a[1]
