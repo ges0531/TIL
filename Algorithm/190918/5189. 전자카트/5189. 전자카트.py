@@ -1,3 +1,8 @@
+import sys
+
+sys.stdin = open('input.txt', 'r')
+
+
 def perm(k, N):
     global my_min, my_sum
     if k == N:
