@@ -10,6 +10,5 @@ for test_case in range(1, T+1):
     bus_stop_count = battery.pop(0)
     index = 0
     location = 0
-    count = 0
-    a = 1
-    print(count)
+    while location > len(battery):
+        location += battery[index]

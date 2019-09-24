@@ -11,12 +11,13 @@ def inorder(tree, cur):
         num += 1
         inorder(tree, right)
 
+
 T = int(input())
-for t in range(1, T+1):
+for test_case in range(1, T+1):
     N = int(input())
     tree = [0] * (N+1)
     num = 1
 
     inorder(tree, 1)
 
-    print('#{} {} {}'.format(t, tree[1], tree[N//2]))
+    print('#{} {} {}'.format(test_case, tree[1], tree[N//2]))
