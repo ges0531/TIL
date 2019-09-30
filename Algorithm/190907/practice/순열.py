@@ -21,6 +21,7 @@ def power_set_r(k):
         a[k] = 0
         power_set_r(k + 1)
 
+
 arr = [1, 2, 3, 4, 5]
 a = [0] * len(arr)
 N = len(arr)
