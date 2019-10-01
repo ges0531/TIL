@@ -34,8 +34,6 @@ for test_case in range(1, T+1):
                 if my_min >= count:
                     my_min = count
                     copy_matrix[column][row] = count
-    for k in copy_matrix:
-        print(k)
     for j in range(5):
         for column_2 in range(len(matrix)):
             for row_2 in range(len(matrix[column_2])):
@@ -60,5 +58,5 @@ for test_case in range(1, T+1):
                             break
                     if my_min >= count:
                         result.append(j+1)
-    print(result)
-    # print('#{} {} {}'.format(test_case, my_min, min(result)))
+
+    print('#{} {} {}'.format(test_case, my_min, min(result)))
