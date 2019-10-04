@@ -1,0 +1,1 @@
+SELECT name FROM bands WHERE debut <= 2000;
