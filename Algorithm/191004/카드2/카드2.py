@@ -2,12 +2,7 @@ import sys
 
 sys.stdin = open('input.txt', 'r')
 
-N = int(input())
-
-num_list = [i+1 for i in range(N)]
-a = [0]
-while num_list:
-    num_list.pop(0)
-    a[0] = num_list.pop(0)
-    num_list = num_list + a
+num_list = list(range(1, int(input())+1))
+while len(num_list) > 1:
+    num_list = num_list[2:] + [num_list[1]]
 print(num_list[0])
