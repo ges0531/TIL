@@ -12,12 +12,14 @@ def guess(request):
 def answer(request):
     
     count = 0
-    if request.GET.get('q1') == '김은수':
+    if request.POST.get('q1') == '김은수':
         count += 1
-    if request.GET.get('q2') == '제육볶음':
+    if request.POST.get('q2') == '제육볶음':
         count += 1
-    if request.GET.get('q3') == 'AB':
+    if request.POST.get('q3') == 'AB':
         count += 1
 
     # 채점
-    return render(request, 'home/answer.html', {'count': count,})
+    return render(request, 'home/answer.html', {
+        'count': count,
+    })
