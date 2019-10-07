@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="deb16c6d-fcc3-4ee8-97e3-fc6bc711725d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/191004/스택 수열/스택 수열.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/191004/카드2/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/191004/카드2/카드2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05_db/tutorial.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../05_db/tutorial.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/191004/카드2/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/191004/카드2/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/191004/카드2/카드2.py" beforeDir="false" afterPath="$PROJECT_DIR$/191004/카드2/카드2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +54,7 @@
     <session id="-1236196959">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="43" />
+          <entry key="project.closed" value="44" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.2" value="22" />
@@ -81,14 +79,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="121539" />
-          <entry key="txt" value="512" />
+          <entry key="py" value="121734" />
+          <entry key="txt" value="514" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="488" />
-          <entry key="Python" value="114818" />
+          <entry key="PLAIN_TEXT" value="490" />
+          <entry key="Python" value="115013" />
           <entry key="Scratch" value="6745" />
         </counts>
       </usages-collector>
@@ -99,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/191004/카드2/카드2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="242">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -109,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/191004/카드2/input.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -190,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -437,15 +435,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1741453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21929824" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21929824" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -837,20 +834,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/191004/카드2/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/191004/스택 수열/스택 수열.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/191004/카드2/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/191004/카드2/카드2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="242">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
         </state>
       </provider>
     </entry>
