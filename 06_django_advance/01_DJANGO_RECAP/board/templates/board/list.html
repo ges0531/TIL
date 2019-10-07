@@ -5,6 +5,7 @@
 
 {% block body %}
 <h1>This is Article list</h1>
+<a href="{% url 'board:new' %}">New article</a>
 
 <ul>
     {% for article in articles %}
