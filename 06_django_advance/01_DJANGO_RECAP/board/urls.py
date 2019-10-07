@@ -5,4 +5,15 @@ app_name = 'board'
 
 urlpatterns = [
     path('', views.index, name='index'),  # /board/ == board:index
+    # Read 글 목록(list) render(화면이 필요한 애들)
+    path('articles/', views.list, name='list'),
+    # Read 글 상세(detail) render
+    path('articles/<int:id>/', views.detail, name='detail'),
+    # Create 글 쓰기(new) render
+    # Create 글 저장(create)
+
+    # Update 글 수정쓰기(edit) render
+    # Update 글 실제수정(update)
+
+    # Delete 글 삭제(delete)
 ]
