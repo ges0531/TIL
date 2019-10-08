@@ -1,0 +1,27 @@
+{% extends 'classroom/base.html' %}
+{% block title %}
+    Edit student
+{% endblock %}
+
+{% block body %}
+    <h1>Edit student</h1>
+
+    <form action="{% url 'classroom:update' student.id %}" method="POST">
+    {% csrf_token %}
+        <div>
+            <label for="name"></label>
+            <input id="name" name="name">
+        </div>
+        <div>
+            <label for="age"></label>
+            <input id="age" name="age">
+        </div>
+        <div>
+            <label for="major"></label>
+            <input id="major" name="major">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+{% endblock %}
