@@ -28,14 +28,6 @@ for j in range(len(string)):
         string[j] = 0
         string[j - 1] = 0
     elif string[j] == '-':
-        if j+2 < len(string):
-            if string[j+2] == '-':
-                if j+3 < len(string):
-                    if int(string[j+1]) < int(string[j+3]):
-                        string[j+3] = int(string[j+3]) - int(string[j+1])
-                        string[j + 1] = 0
-                        string[j] = 0
-                        string[j+2] = 0
         string[j + 1] = int(string[j - 1]) - int(string[j + 1])
         string[j] = 0
         string[j - 1] = 0
