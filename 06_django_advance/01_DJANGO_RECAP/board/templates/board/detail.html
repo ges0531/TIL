@@ -9,23 +9,46 @@
         {{ article.content  }}
     </p>
     <div>
-        <a href="{% url 'board:edit' article.id %}">
+        <a href="{% url 'board:edit_article' article.id %}">
             <button>Edit</button>
         </a>
     </div>
     <div>
-        <form action="{% url 'board:delete' article.id %}" method='POST'>
+        <form action="{% url 'board:delete_article' article.id %}" method='POST'>
             {% csrf_token %}
             <input type="submit" value='삭제' onclick="return confirm('ㄹㅇ?')">
         </form>
     </div>
+    <div>
+        <form action="{% url 'board:article_list' %}">
+            <input type="submit" value='목록'>
+        </form>
+    </div>
+    
 
-    <script>
+    <hr>
+
+    <form action="{% url 'board:new_comment' article.id %}" method='POST'>
+        {% csrf_token %}
+        <input type="text" name='comment_content'>
+        <input type="submit">
+    </form>
+
+
+    {% if comments %}
+        <ul>
+            {% for comment in comments %}
+                <li>{{ comment.content }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    {% comment %} <script>
         const delButton = document.querySelector('#delButton');
         function writeHi() {
             document.write('Hi');
 
         }
         delButton.addEventListener('mouseover', writeHi);
-    </script>
+    </script> {% endcomment %}
 {% endblock %}

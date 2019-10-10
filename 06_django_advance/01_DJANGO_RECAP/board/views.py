@@ -1,14 +1,14 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_GET, require_POST
 from django.views.decorators.http import require_http_methods
-from .models import Article
-from .forms import ArticleModelForm
+from .models import Article, Comment
+from .forms import ArticleModelForm, CommentModelForm
 from IPython import embed
 
 
 # CRUD
 @require_http_methods(['GET', 'POST'])
-def new(request):
+def new_article(request):
     # 요청이 GET/POST 인지 확인한다.
     # 만약 POST 라면
     if request.method == 'POST':
@@ -19,7 +19,7 @@ def new(request):
             # 유효하다면 form 을 저장한다.
             article = form.save()
             # 저장한 article detail 로 redirect 한다.
-            return redirect(article)
+            return redirect(article)  # redirect('board:article_detail', article.id)
         # form 이 유효하지 않다면,
         # else:
         #     # 유효하지 않은 입력데이터를 담은 HTML과 에러메세지를 사용자한테 보여준다.
@@ -35,8 +35,9 @@ def new(request):
         'form': form,
     })
 
+
 @require_GET
-def list(request):
+def article_list(request):
     articles = Article.objects.all()
     return render(request, 'board/list.html', {
         'articles': articles,
@@ -44,8 +45,8 @@ def list(request):
 
 
 @require_http_methods(['GET', 'POST'])
-def edit(request, id):
-    article = get_object_or_404(Article, id=id)
+def edit_article(request, article_id):
+    article = get_object_or_404(Article, id=article_id)
 
     if request.method == 'POST':
         form = ArticleModelForm(request.POST, instance=article)
@@ -58,23 +59,36 @@ def edit(request, id):
         'form': form,
     })
 
+
 @require_GET
-def detail(request, id):
-    article = get_object_or_404(Article, id=id)
+def article_detail(request, article_id):
+    article = get_object_or_404(Article, id=article_id)
+    comments = article.comment_set.all().order_by('-id')  # Comment.objects.filter(article_id=article.id)
     return render(request, 'board/detail.html', {
         'article': article,
+        'comments': comments,
     })
 
 
 @require_POST  # Database 의 영향을 주면 POST
-def delete(request, id):
-    article = get_object_or_404(Article, id=id)
+def delete_article(request, article_id):
+    article = get_object_or_404(Article, id=article_id)
     article.delete()
-    return redirect('board:list')
+    return redirect('board:article_list')
 
 
 def index(request):
     pass
+
+
+@require_POST
+def new_comment(request, article_id):  # board/articles/N/comments/new
+    article = get_object_or_404(Article, id=article_id)
+    comment = Comment()
+    comment.content = request.POST.get('comment_content')
+    comment.article_id = article.id
+    comment.save()
+    return redirect(article)
 
 
 # from .models import Article
