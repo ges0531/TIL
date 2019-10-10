@@ -5,9 +5,11 @@
 
 {% block body %}
     <h1>New article</h1>
-    <form method="POST">
+    {% include 'board/_form.html' %}
+    {% comment %} <form method="POST">
         {% csrf_token %}
-        {{ form.as_p }}
-    </form>
+        {{ form.as_table }}
+        <input type="submit">
+    </form> {% endcomment %}
     {% comment %} {% include board/_form.html %} {% endcomment %}
 {% endblock %}
