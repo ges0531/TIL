@@ -18,6 +18,7 @@ for i in range(string_length):
 for ii in range(count):
     if 0 in string:
         string.remove(0)
+print(string)
 for j in range(len(string)):
     if string[j] == '++':
         string[j + 1] = int(string[j - 1]) + int(string[j + 1])
