@@ -13,15 +13,21 @@ def bracket(k, num_list, operator_list, copy_list):
     else:
         for j in range(k, len(operator_list)):
             if operator_list[j] == '+':
-                num_list[j] = num_list[j-1]+num_list[j]
+                num_list[j+1] = num_list[j]+num_list[j+1]
             elif operator_list[j] == '*':
-                num_list[j] = num_list[j-1] * num_list[j]
+                num_list[j+1] = num_list[j] * num_list[j+1]
             elif operator_list[j] == '-':
-                num_list[j] = num_list[j-1] - num_list[j]
+                num_list[j+1] = num_list[j] - num_list[j+1]
             print(num_list)
-            bracket(k + 1, num_list, operator_list, copy_list)
-            if j+1 < string_length:
-                num_list[j], num_list[j+1] = copy_list[j], copy_list[j+1]
+            bracket(k + 2, num_list, operator_list, copy_list)
+            for a in range(k, len(operator_list)):
+                if operator_list[a] == '+':
+                    num_list[a + 1] = num_list[a] + num_list[a + 1]
+                elif operator_list[a] == '*':
+                    num_list[a + 1] = num_list[a] * num_list[a + 1]
+                elif operator_list[j] == '-':
+                    num_list[a + 1] = num_list[j] - num_list[j + 1]
+            num_list[j+1] = copy_list[j+1]
 
 
 string_length = int(input())
