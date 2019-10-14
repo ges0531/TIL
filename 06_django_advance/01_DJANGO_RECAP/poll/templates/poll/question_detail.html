@@ -1,0 +1,25 @@
+{% extends 'poll/base.html' %}
+{% block title %}
+    question_detail
+{% endblock title %}
+{% block body %}
+    <h1>{{ question.title }}</h1>
+<div>
+    <form "{% url 'poll:upvote' question.id %}" method="POST">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit">
+    </form>
+</div>
+<div>
+    {% if choices %}
+        <ul>
+            {% for choice in choices %}
+                <li>
+                    {{ choice.content }}: {{ choice.votes }}표
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</div>
+{% endblock body %}

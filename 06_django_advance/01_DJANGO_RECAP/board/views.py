@@ -2,8 +2,20 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_GET, require_POST
 from django.views.decorators.http import require_http_methods
 from .models import Article, Comment
-from .forms import ArticleModelForm, CommentModelForm
+from .forms import ArticleModelForm, CommentModelForm, ArticleForm
 from IPython import embed
+
+
+
+# def new_article_with_form(request):
+#     if request.method == 'POST':
+#         form = ArticleForm(request.POST)
+#         if form.is_valid():
+#             article = Article()
+#             article.title = form.cleaned_data.get('title')
+#             article.content = form.cleaned_data.get('content')
+#             article.save()
+#             return redirect(article)
 
 
 # CRUD
@@ -64,9 +76,12 @@ def edit_article(request, article_id):
 def article_detail(request, article_id):
     article = get_object_or_404(Article, id=article_id)
     comments = article.comment_set.all().order_by('-id')  # Comment.objects.filter(article_id=article.id)
+    comment_form = CommentModelForm()
+
     return render(request, 'board/detail.html', {
         'article': article,
         'comments': comments,
+        'comment_form': comment_form,
     })
 
 
@@ -84,11 +99,33 @@ def index(request):
 @require_POST
 def new_comment(request, article_id):  # board/articles/N/comments/new
     article = get_object_or_404(Article, id=article_id)
-    comment = Comment()
-    comment.content = request.POST.get('comment_content')
-    comment.article_id = article.id
-    comment.save()
+    form = CommentModelForm(request.POST)  # 목적이 저장하려고 만듦, 화면이 필요할 때는 ()를 비워둠
+    # embed()
+    if form.is_valid():
+        # comment = Comment() +
+        # comment.content = request.POST.get('content') == comment = form.save(commit=False)
+        comment = form.save(commit=False)  # comment 변수를 만들 필요가 없음 저장이 중요 화면으로 보여줄게 아님
+        comment.article_id = article.id
+        comment.save()
     return redirect(article)
+
+
+@require_POST
+def delete_comment(request, article_id, comment_id):
+    # article = get_object_or_404(Article, id=article_id)
+    # comment = get_object_or_404(Comment, id=comment_id)
+    # if comment in article.comment_set.all():  # article과 comment가 연관이 있는지
+    #     comment.delete()
+    # return redirect(article)
+
+    comment = get_object_or_404(Comment, id=comment_id, article_id=article_id)
+    comment.delete()
+    return redirect(comment.article)
+
+# comment = Comment()
+    # comment.content = request.POST.get('comment_content')
+    # comment.article_id = article.id
+    # comment.save()
 
 
 # from .models import Article
