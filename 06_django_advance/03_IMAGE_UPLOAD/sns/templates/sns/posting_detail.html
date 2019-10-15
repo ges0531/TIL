@@ -1,0 +1,15 @@
+{% extends 'sns/base.html' %}
+
+{% block title %}{% endblock title %}
+
+{% block body %}
+{% comment %} 컨테이너 안에 가로 칸을 주고 마진 탑 3칸을 준다 {% endcomment %}
+<div class="row mt-3">
+    <div class="col-12 col_md 6">
+        {% if posting.image %}
+            <img src="{{ posting.image.url }}" alt="{{ posting.image }}">
+        {% endif %}
+    </div>
+</div>
+
+{% endblock body %}
