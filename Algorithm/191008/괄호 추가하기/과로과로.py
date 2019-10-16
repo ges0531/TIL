@@ -2,26 +2,57 @@ import sys
 
 sys.stdin = open('input.txt', 'r')
 
+
+def bracket(k, N, arr):
+    if k+3 > N:
+        for ii in range(N):
+            if ii % 2 == 0:
+                string[ii] = str(string[ii])
+        result = ''.join(arr)
+        result = list(result)
+        print(result)
+
+        # for m in range(len(result)):
+        #     if result[m] == '+':
+        #         result[m+1] = result[m-1]+result[m+1]
+        #         arr[i-1] = ''
+        #         arr[i] = ''
+        #     elif arr[i] == '*':
+        #         if type(arr[i + 1]) == int and type(arr[i - 1]) == int:
+        #             arr[i + 1] = arr[i - 1] * arr[i + 1]
+        #             arr[i - 1] = ''
+        #             arr[i] = ''
+        #     elif arr[i] == '-':
+        #         if type(arr[i + 1]) == int and type(arr[i - 1]) == int:
+        #             arr[i + 1] = arr[i - 1] - arr[i + 1]
+        #             arr[i - 1] = ''
+        #             arr[i] = ''
+    else:
+        for i in range(k, N-1):
+            if arr[i] == '+':
+                if type(arr[i+1]) == int and type(arr[i-1]) == int:
+                    arr[i+1] = arr[i-1]+arr[i+1]
+                    arr[i-1] = ''
+                    arr[i] = ''
+            elif arr[i] == '*':
+                if type(arr[i + 1]) == int and type(arr[i - 1]) == int:
+                    arr[i + 1] = arr[i - 1] * arr[i + 1]
+                    arr[i - 1] = ''
+                    arr[i] = ''
+            elif arr[i] == '-':
+                if type(arr[i + 1]) == int and type(arr[i - 1]) == int:
+                    arr[i + 1] = arr[i - 1] - arr[i + 1]
+                    arr[i - 1] = ''
+                    arr[i] = ''
+            bracket(k+4, N, arr)
+            arr[i-1], arr[i], arr[i+1] = copy_string[i-1], copy_string[i], copy_string[i+1]
+
+
 string_length = int(input())
 
 string = list(input())
+for j in range(string_length):
+    if j % 2 == 0:
+        string[j] = int(string[j])
 copy_string = string[:]
-my_real_list = []
-my_real_list_2 = []
-operator_list = []
-operator_list_2 = []
-while len(copy_string) >= 3:
-    my_list = [0] * 3
-    for i in range(3):
-        my_list[i] = copy_string.pop(0)
-    if copy_string:
-        operator_list.append(copy_string.pop(0))
-    my_real_list.append(my_list)
-
-while len(string) >= 5:
-    my_list = [0] * 3
-    for i in range(3):
-        my_list[i] = string.pop(2)
-    if string:
-        operator_list_2.append(string.pop(1))
-    my_real_list_2.append(my_list)
+bracket(0, string_length, string)
