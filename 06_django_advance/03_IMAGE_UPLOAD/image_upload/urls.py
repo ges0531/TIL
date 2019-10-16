@@ -20,8 +20,9 @@ from django.conf import settings  # MASTER_APP/settings.py
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('sns.urls')),
+    path('newsfeed/', include('sns.urls')),
     # path('media', '/media/폴더 안에서 이미지를 찾아라')
+    path('accounts/', include('accounts.urls')),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)  # '/media/'
