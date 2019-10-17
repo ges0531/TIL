@@ -6,5 +6,20 @@
         <li class="nav-item">
             <a class="nav-link {% block detail %}{% endblock detail %}" aria-disabled="true">Detail</a>
         </li>
+        {% if user.is_authenticated %}
+            <li class="nav-item">
+                <a href="{% url 'accounts:logout' %}" class="nav-link">Logout</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">{{ user.username }}</a>
+            </li>
+        {% else %}
+            <li class="nav-item">
+                <a href="{% url 'accounts:signup' %}" class="nav-link">Sign up</a>
+            </li>
+            <li class="nav-item">
+                <a href="{% url 'accounts:login' %}" class="nav-link">Log in</a>
+            </li>
+        {% endif %}        
     </ul>
 </nav>

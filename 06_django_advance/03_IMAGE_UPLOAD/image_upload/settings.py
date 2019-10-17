@@ -126,3 +126,5 @@ STATIC_URL = '/static/'  # 올 대문자로 써 있으면 상수처리 (수정 x
 
 MEDIA_URL = '/media/'  # 찾을 위치
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # 저장될 위치
+
+# AUTH_USER_MODEL = 'auth.User'

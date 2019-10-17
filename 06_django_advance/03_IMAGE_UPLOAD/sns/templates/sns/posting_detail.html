@@ -19,9 +19,11 @@
         <hr>
         <div class="row">
           <div class="col-10">
+          <p class="card-text">{{ posting.user.username }}</p>
             <p class="card-text">{{ posting.content }}</p>
           </div>
           <div class="col-2">
+
             <form action="{% url 'sns:delete_posting' posting.id %}" method="POST">
               {% csrf_token %}
               <button>

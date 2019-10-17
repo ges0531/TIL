@@ -3,7 +3,7 @@
       <div class="card-body">
         <form action="{% url 'sns:create_comment' posting.id %}" method="POST">
           {% csrf_token %}
-          <label for="comment">leave comment</label>
+          <label for="comment"><strong>{{ user }}</strong> leave comment</label>
           <input type="text" name="content" id="content" class="form-control">
         </form>
       </div>
@@ -17,15 +17,19 @@
             <div class="row">
 
               <div class="col-10">
-                익명{{ forloop.counter }}: {{ comment.content }}
+              {% comment %} {{ comment.user }}: 댓글 쓴 사람 {% endcomment %}
+              {% comment %} {{ comment.user }}: 게시물 작성한 사람 {% endcomment %}
+                {{ comment.user }}: {{ comment.content }}
               </div>
               <div class="col-2">
+              {% if user == comment.user %}
                 <form action="{% url 'sns:delete_comment' posting.id comment.id %}" method="POST">
                   {% csrf_token %}
                   <button>
                     <i class="fas fa-trash"></i>
                   </button>
                 </form>
+              {% endif %}
               </div>
             </div>
           </li>

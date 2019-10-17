@@ -1,5 +1,6 @@
 from django.db import models
 from django.urls import reverse
+from django.conf import settings # MASTER_APP/settings.py
 
 
 """
@@ -10,6 +11,7 @@ $ rm <APP_NAME>/migrations/0*
 """
 
 class Posting(models.Model):  # 주석처리 하고 migrate하면 Table 날라감
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     content = models.TextField()
     icon = models.CharField(max_length=30, default='')  # CharField일때 default값은 '' IntegerField일 때 0
     image = models.ImageField(blank=True)  # 이미지가 비어있을 수 있다, $ pip install pillow
@@ -30,6 +32,7 @@ class Posting(models.Model):  # 주석처리 하고 migrate하면 Table 날라�
 
 class Comment(models.Model):
     # related_name 이 없으면, posting.comment_set / 아래와 같다면, posting.comments
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     posting = models.ForeignKey(Posting, on_delete=models.CASCADE, related_name='comments')
     content = models.CharField(max_length=200)
     created_at = models.DateTimeField(auto_now_add=True)
