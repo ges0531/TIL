@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, get_object_or_404
-from django.views.decorators.http import require_GET, require_POST
+from django.views.decorators.http import require_GET, require_POST, require_http_methods
 from django.contrib.auth.decorators import login_required
 from .models import Posting, Comment
 from .forms import PostingModelForm, CommentModelForm
@@ -73,4 +73,18 @@ def delete_comment(request, comment_id, posting_id):
     posting = get_object_or_404(Posting, id=posting_id)
     comment = get_object_or_404(Comment, id=comment_id, posting_id=posting_id)
     comment.delete()
+    return redirect(posting)
+
+
+@login_required
+@require_POST
+def toggle_like(request, posting_id):
+    user = request.user
+    posting = get_object_or_404(Posting, id=posting_id)
+    if posting.like_users.filter(id=user.id).exists():
+        posting.like_users.remove(user)
+        is_like = False
+    else:
+        posting.like_users.add(user)  # Create
+        is_like = True
     return redirect(posting)
