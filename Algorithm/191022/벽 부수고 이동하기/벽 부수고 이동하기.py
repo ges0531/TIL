@@ -2,6 +2,7 @@ import sys
 import collections
 sys.stdin = open('input.txt', 'r')
 
+
 def BFS(start_node):
     global wall_matrix
     queue = collections.deque()
@@ -39,7 +40,7 @@ for col in range(len(matrix)):
     for row in range(len(matrix[col])):
         if matrix[col][row]:
             count += 1
-wall_matrix = [[0]*matrix_row for _ in range(matrix_column)]
+wall_matrix = [[0] * matrix_row for _ in range(matrix_column)]
 dx = [0, 0, -1, 1]
 dy = [-1, 1, 0, 0]
 for _ in range(count):
