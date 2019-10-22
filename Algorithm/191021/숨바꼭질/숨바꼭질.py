@@ -1,32 +1,32 @@
 import sys
+import collections
 
 sys.stdin = open('input.txt', 'r')
 
 def BFS(start_location):
     global result
-    queue = [subin_location]
-    visited = [0]*(bro_location+1)
+    queue = collections.deque()
+    queue.append(subin_location)
+    visited = [0]*100001
     visited[subin_location] = 1
     while queue:
-        a = queue.pop(0)
+        a = queue.popleft()
         b = a + 1
-        if a * 2 <= 100000:
-            c = a * 2
-        if a - 1 >= 0:
-            d = a - 1
-        if c <= bro_location:
+        c = a * 2
+        d = a - 1
+        if c <= 100000:
             if visited[c] == 0:
                 visited[c] = visited[a] + 1
                 queue.append(c)
-        if b <= bro_location:
+        if b <= 100000:
             if visited[b] == 0:
                 visited[b] = visited[a] + 1
                 queue.append(b)
-        if d <= bro_location:
+        if d >= 0:
             if visited[d] == 0:
                 visited[d] = visited[a] + 1
                 queue.append(d)
-    return visited[-1]-1
+    return visited[bro_location]-1
 
 
 subin_location, bro_location = map(int, input().split())
