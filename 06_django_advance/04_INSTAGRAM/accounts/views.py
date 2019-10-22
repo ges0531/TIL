@@ -6,12 +6,12 @@ from .forms import CustomUserCreationForm, CustomAuthenticationForm
 # 현재 Project 에서 사용할 User 모델을 return 하는 함수
 from django.contrib.auth import get_user_model
 # Create your views here.
-User = get_user_model
+User = get_user_model()
 
 
 @require_http_methods(['GET', 'POST'])
 def signup(request):
-    if request.user.is_authenticated():
+    if request.user.is_authenticated:
         return redirect('/')
 
     if request.method == 'POST':
@@ -29,7 +29,7 @@ def signup(request):
 
 @require_http_methods(['GET', 'POST'])
 def login(request):
-    if request.user.is_authenticated():
+    if request.user.is_authenticated:
         return redirect('/')
     if request.method == 'POST':
         form = CustomAuthenticationForm(request, request.POST)
