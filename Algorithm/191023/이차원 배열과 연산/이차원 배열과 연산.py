@@ -35,8 +35,6 @@ while matrix[r-1][c-1]-result:
         for row_1 in range(len(matrix[0])):
             num_list_2 = []
             for col_1 in range(len(matrix)):
-                print(col_1, row_1)
-                print(matrix)
                 num_count[matrix[col_1][row_1]] += 1
             for ii in range(len(num_count)):
                 if num_count[ii]:
