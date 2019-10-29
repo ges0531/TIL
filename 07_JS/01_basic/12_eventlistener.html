@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div id='my'>
+        
+    </div>
+    <button id="js-button">Click Me</button>
+    <button>Me too</button>
+    <button>Hi</button>
+
+    <script>
+        // Event Listener
+        /*
+            [무엇]을        [언제]          [어떻게]
+            버튼            클릭            화면에 나타남
+        */
+       // 무엇
+       const button = doucument.querySelector('#js-button'); // button#js-button
+
+
+       // 어떻게
+       function yap() {
+           const area = document.querySelector('#my');  // div#my
+           area.innerHTML = '<h1>얍!</h1>';
+       }
+
+       // 언제
+    //    [무엇]button. [언제]addEventListener('click',[어떻게] yap)
+        button.addEventListener('click', yap);
+    </script>
+    
+</body>
+</html>

@@ -18,3 +18,8 @@ for (let k=1; k < 6; k++) {
     sum += k;
 }
 console.log(sum);
+
+// for num in [1, 2, 3, 4, 5]:
+for (const number of [1, 2, 3, 4, 5]) {
+    
+}
