@@ -23,6 +23,7 @@ for time in range(matrix_column):
         for i in range(len(shark_list)):
             if row == shark_list[i][0] and column == shark_list[i][1]:
                 result += shark_list[i][4]
+                print(result)
                 flag = 1
                 shark_list.pop(i)
                 break
