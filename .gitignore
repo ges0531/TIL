@@ -1,3 +1,7 @@
+# npm node modules
+node_modules/
+
+
 .vscode/
 .idea/
 *.ipynb
