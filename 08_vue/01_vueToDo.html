@@ -10,6 +10,8 @@
             v-model="newTodo"
             v-on:keyup.enter="addTodo"
         >
+        <button v-on:click="addTodo">+</button>
+        <button v-on:click="clearCompleted">Clear Completed</button>
         <!-- 'v-' 접두사가 붙으면, 디렉티브(directive)라고 부른다. -->
         <ul>
             <!-- 'v-for' 가 있는 Element 가 반복 -->
@@ -42,6 +44,16 @@
                         completed: false,
                     })
                     this.newTodo = '';
+                },
+                clearCompleted: function() {
+                    // this.todos = this.todos.filter(todo => !todo.completed);
+                    const newTodos = [];
+                    for (const todo of this.todos) {
+                        if (!todo.completed) {
+                            newTodos.push(todo);
+                        }
+                    }
+                    this.todos = newTodos;
                 },
             },
         });
