@@ -31,7 +31,3 @@ area_count = int(input())
 people_list = list(map(int, input().split()))
 link_list = [list(map(int, input().split())) for _ in range(area_count)]
 index_list = [k for k in range(area_count)]
-for i in range(1, area_count+1):
-    result = []
-    visited = [0] * area_count
-    
