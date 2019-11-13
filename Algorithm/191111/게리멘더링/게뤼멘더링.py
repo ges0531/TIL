@@ -12,7 +12,6 @@ def BFS(start_node, end_node):
             visited_1[a] = 1
             for ii in range(len(link_list[a])):
                 if not visited_1[link_list[a][ii]]:
-                    visited_1[link_list[a][ii]] = 1
                     queue.append(link_list[a][ii])
     if visited_1[start_node] and visited_1[end_node]:
         return 1
@@ -43,11 +42,9 @@ def comb(n, r, arr, t):
         if result == len(result_2)-1:
             for link_2 in range(len(result_2)):
                 visited[result_2[link_2]] = 1
-        print(result_1, result_2)
         rere_1 = 0
         rere_2 = 0
         if visited.count(1) == area_count:
-            print(result_1, result_2)
             for re_1 in range(len(result_1)):
                 rere_1 += people_list[result_1[re_1]]
             for re_2 in range(len(result_2)):
@@ -78,6 +75,9 @@ for i in range(area_count):
 for co in range(1, area_count):
     comb(area_count, co, index_list, [0]*co)
 
-print(my_min)
+if my_min == 100000000:
+    print(-1)
+else:
+    print(my_min)
 
 
