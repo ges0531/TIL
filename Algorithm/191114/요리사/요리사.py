@@ -48,3 +48,6 @@ for test_case in range(1, T+1):
     my_min = 10000000
     comb(size, size//2, index_list, [0]*(size//2))
     print('#{} {}'.format(test_case, my_min//2))
+
+
+S2 = [x for x in A if x not in S1]
