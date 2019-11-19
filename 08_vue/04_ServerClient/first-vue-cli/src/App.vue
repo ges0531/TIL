@@ -1,9 +1,15 @@
 <template>
     <!-- 반드시, Templage 안에는 "단 1개" 의 최상단 태그(노드) -->
     <div>
-        <h1>나쁜말 거름종이</h1>
+        <!-- <h1>나쁜말 거름종이</h1>
         <input type="text" v-model="input">
-        <p>{{ filteredInput }}</p>
+        <p>{{ filteredInput }}</p> -->
+        <div v-bind:style= "{ color: activeColor, fontSize: fontSize + 'px' }">
+            HIHI
+        </div>
+        <div class="static" v-bind:class= "{ active: isActive, error: hasError }">
+            Hi
+        </div>
     </div>
 </template>
 
@@ -11,11 +17,20 @@
 export default {
     name: 'App',
     // 왜인지는 모르겠지만, 이제부터는 data 를 function 으로 만들어야 해..
+
     data: function () {
-        return {
-            input: '',
+    return {
+    activeColor: 'red',
+    fontSize: 30,
+    isActive: true,
+    hasError: false
         }
     },
+    // data: function () {
+    //     return {
+    //         input: '',
+    //     }
+    // },
     methods: {},
     computed: {
         filteredInput: function () {
