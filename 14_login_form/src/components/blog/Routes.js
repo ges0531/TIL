@@ -1,9 +1,9 @@
 import React from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 
-import SignUp from "./SignUp";
-import SignInSide from "./SignInSide";
-import Blog from './Blog'
+import SignUp from "../sign/SignUp";
+import SignInSide from "../sign/SignInSide";
+import Blog from './Blog';
 
 const Routes = () => {
     return (

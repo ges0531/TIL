@@ -12,6 +12,7 @@ import Grid from '@material-ui/core/Grid';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
+import withRouter from './Login';
 
 function Copyright() {
   return (
@@ -99,17 +100,15 @@ export default function SignInSide() {
               control={<Checkbox value="remember" color="primary" />}
               label="Remember me"
             />
-            <Link to="/">
-              <Button
-                type="submit"
-                fullWidth
-                variant="contained"
-                color="primary"
-                className={classes.submit}
-              >
-                Sign In
-              </Button>
-            </Link>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              color="primary"
+              className={classes.submit}
+            >
+              Sign In
+            </Button>
             <Grid container>
               <Grid item xs>
                 <Link href="#" variant="body2">

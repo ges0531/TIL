@@ -1,5 +1,5 @@
 import React from 'react';
-import Route from './components/Routes';
+import Route from './components/blog/Routes';
 
 function App() {
   return <Route />;
