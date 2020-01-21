@@ -11,7 +11,8 @@ browser = webdriver.Chrome(executable_path="C:/Users/multicampus/Downloads/chrom
 browser.get("http://kmanifesto.or.kr/index.php/front/localList?mtype=assembly")
 element = browser.find_element_by_xpath("/html/body/div/div[2]/div[3]/div/div[3]/div[1]/div")
 element.click()
-for r in range(17):
+result = []
+for r in range(8):
     people = browser.find_element_by_css_selector("#container").find_elements_by_tag_name("div.wrap")[r].find_elements_by_tag_name("div.district")[0].find_elements_by_tag_name("div.btnlocal")
     for k in range(1, len(people)+1):
         element = browser.find_element_by_xpath("/html/body/div/div[2]/div[2]/div[3]/div[{}]/div[2]/div[{}]".format(r+1, k))
@@ -47,13 +48,18 @@ for r in range(17):
                     elif '\u30fb' in com.text:
                         a = com.text.split('\u30fb')
                         a = ''.join(a)
+                    elif '\u24b6' in com.text:
+                        a = com.text.split('\u24b6')
+                        a = ''.join(a)
                     else:
                         a = com.text
                     try:
                         print(a)
                     except UnicodeEncodeError as e:
+                        result.append(e)
                         print(e)
         back_button = browser.find_element_by_xpath("/html/body/div/div[2]/div[2]/div[1]/div/input[2]")
         back_button.click()
+print(result)
 # /html/body/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[1]
 # /html/body/div/div[2]/div[2]/div[3]/div[2]/div[2]/div[1]
