@@ -3,6 +3,26 @@ import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.wait import WebDriverWait
+import pymysql
+
+
+con= pymysql.connect(host="70.12.247.60", user="root",password="root",db="sakila",charset="utf8")
+cursor = db.cursor()
+
+sql = '''
+CREATE TABLE commitment (
+    p_id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    p_name VARCHAR(200) NOT NULL,
+    p_district VARCHAR(200) NOT NULL,
+    p_commitment VARCHAR(200) NOT NULL,
+
+    PRIMARY KEY(p_id)
+);
+'''
+cursor.execute(sql)
+
+db.commit()
+db.close()
 
 
 options = Options()
@@ -12,7 +32,7 @@ browser.get("http://kmanifesto.or.kr/index.php/front/localList?mtype=assembly")
 element = browser.find_element_by_xpath("/html/body/div/div[2]/div[3]/div/div[3]/div[1]/div")
 element.click()
 result = []
-for r in range(16, 17):
+for r in range(1):
     people = browser.find_element_by_css_selector("#container").find_elements_by_tag_name("div.wrap")[r].find_elements_by_tag_name("div.district")[0].find_elements_by_tag_name("div.btnlocal")
     for k in range(1, len(people)+1):
         element = browser.find_element_by_xpath("/html/body/div/div[2]/div[2]/div[3]/div[{}]/div[2]/div[{}]".format(r+1, k))
@@ -99,11 +119,10 @@ for r in range(16, 17):
                             a = ''.join(a)
                         else:
                             a = com.text
-                        try:
-                            print(a)
-                        except UnicodeEncodeError as e:
-                            result.append(e)
-                            print(e)
+                        print(a[:-3])
+                        # except UnicodeEncodeError as e:
+                        #     result.append(e)
+                        #     print(e)
             browser.get("{}&page={}".format(browser.current_url, k+2))
         button = browser.find_element_by_xpath("/html/body/div/div[2]/div[2]/div[1]/div/input[2]")
         button.click()
