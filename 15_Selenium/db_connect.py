@@ -15,7 +15,6 @@ CREATE TABLE commitment (
     p_name VARCHAR(200) NOT NULL,
     p_district VARCHAR(200) NOT NULL,
     p_commitment VARCHAR(200) NOT NULL,
-
     PRIMARY KEY(p_id)
 );
 '''

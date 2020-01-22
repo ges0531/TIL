@@ -11,7 +11,6 @@ browser = webdriver.Chrome(executable_path="C:/Users/multicampus/Downloads/chrom
 browser.get("http://kmanifesto.or.kr/index.php/front/localList?mtype=assembly")
 element = browser.find_element_by_xpath("/html/body/div/div[2]/div[3]/div/div[3]/div[1]/div")
 element.click()
-result = []
 for r in range(16, 17):
     people = browser.find_element_by_css_selector("#container").find_elements_by_tag_name("div.wrap")[r].find_elements_by_tag_name("div.district")[0].find_elements_by_tag_name("div.btnlocal")
     for k in range(1, len(people)+1):
@@ -99,13 +98,8 @@ for r in range(16, 17):
                             a = ''.join(a)
                         else:
                             a = com.text
-                        try:
-                            print(a)
-                        except UnicodeEncodeError as e:
-                            result.append(e)
-                            print(e)
+                        print(a)
             browser.get("{}&page={}".format(browser.current_url, k+2))
         button = browser.find_element_by_xpath("/html/body/div/div[2]/div[2]/div[1]/div/input[2]")
         button.click()
-print(result)
 # \u301c, \u2473, \u2472, \u2471, \u2470, \u246f, \u2013
