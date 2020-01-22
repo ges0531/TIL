@@ -26,16 +26,26 @@ const db = [
   {
     name: '권칠승',
     url: 'http://watch.peoplepower21.org/files/attach/images/461/853/b8d89e4258aa9fb95f8d5a599cd5ab01.jpg'
+  },
+  {
+    name: '권칠승',
+    url: 'http://watch.peoplepower21.org/files/attach/images/461/853/b8d89e4258aa9fb95f8d5a599cd5ab01.jpg'
   }
 ]
+
+var a = [];
 
 function App () {
   const characters = db
   const [lastDirection, setLastDirection] = useState()
 
   const swiped = (direction, nameToDelete) => {
+    if (direction === '좋아합니다') {
+      a.push(nameToDelete)   
+    }
     console.log('removing: ' + nameToDelete)
     setLastDirection(direction)
+    console.log(a)
   }
 
   const outOfFrame = (name) => {
@@ -60,5 +70,6 @@ function App () {
     </div>
   )
 }
+console.log(a)
 
 export default App
