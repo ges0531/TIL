@@ -1,4 +1,6 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* global WebKitCSSMatrix */
+// npm install eslint-plugin-react-hooks@next
 
 const React = require('react')
 const sleep = require('p-sleep')
@@ -112,7 +114,8 @@ const touchCoordinatesFromEvent = (e) => {
 }
 
 const mouseCoordinatesFromEvent = (e) => {
-  return { x: e.clientX, y: e.clientY }
+  // return { x: e.clientX, y: e.clientY }  // y 방향 안움직이게
+  return { x: e.clientX, y: 0 }
 }
 
 let swipeAlreadyReleased = false

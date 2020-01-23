@@ -28,7 +28,7 @@ const db = [
     url: 'http://watch.peoplepower21.org/files/attach/images/461/853/b8d89e4258aa9fb95f8d5a599cd5ab01.jpg'
   },
   {
-    name: '권칠승',
+    name: '권칠',
     url: 'http://watch.peoplepower21.org/files/attach/images/461/853/b8d89e4258aa9fb95f8d5a599cd5ab01.jpg'
   }
 ]
@@ -66,7 +66,7 @@ function App () {
           </TinderCard>
         )}
       </div>
-      {lastDirection ? <h2 className='infoText'>이 사람을 {lastDirection}</h2> : <h2 className='infoText' />}
+      {lastDirection ? <h2 className='infoText'>이 사람을 {lastDirection}</h2> : <h2 className='infoText'> </h2>}
     </div>
   )
 }

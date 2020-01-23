@@ -33,7 +33,7 @@
     max-width: 260px;
     height: 300px;
   }
-  
+  /* scale 변화, size 변화 */
   .card {
     position: relative;
     background-color: #fff;
