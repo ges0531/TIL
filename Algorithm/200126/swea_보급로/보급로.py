@@ -1,4 +1,5 @@
 import sys
+from collections import deque
 
 sys.stdin = open('input.txt', 'r')
 
@@ -20,14 +21,14 @@ def search_road(start_node, visited, result):
                     search_road([idy, idx], visited, result+matrix[idy][idx])
                     visited.pop()
 
-
 T = int(input())
-T = 1
+# T = 1
 for test_case in range(1, T+1):
     N = int(input())
     matrix = [list(map(int, input())) for _ in range(N)]
     dy = [-1, 1, 0, 0]
     dx = [0, 0, -1, 1]
-    my_min = 1000000
-    search_road([0, 0], [[0, 0]],  matrix[0][0])
+    my_min = 100000
+    dequeue = deque([0, 0])
+    search_road([0, 0], dequeue,  matrix[0][0])
     print('#{} {}'.format(test_case, my_min))
