@@ -26,9 +26,12 @@ T = int(input())
 for test_case in range(1, T+1):
     N = int(input())
     matrix = [list(map(int, input())) for _ in range(N)]
-    dy = [-1, 1, 0, 0]
-    dx = [0, 0, -1, 1]
+    dy = [1, 0, -1, 0]
+    dx = [0, 1, 0, -1]
     my_min = 100000
     dequeue = deque([0, 0])
+    memoization = [[0] * N for _ in range(N)]
     search_road([0, 0], dequeue,  matrix[0][0])
+    print(memoization)
+
     print('#{} {}'.format(test_case, my_min))
