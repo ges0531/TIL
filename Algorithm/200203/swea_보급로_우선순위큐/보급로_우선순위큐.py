@@ -4,29 +4,37 @@ from queue import PriorityQueue
 sys.stdin = open('input.txt', 'r')
 
 def BFS(start_node):
-    queue = PriorityQueue()
-    queue.put((0, 0, [start_node[0], start_node[1]]))
+    queue = [start_node]
     visited = [[0]*matrix_size for _ in range(matrix_size)]
     visited[start_node[0]][start_node[1]] = 1
-    count = 0
     while queue:
-        a = queue.get()
-        count += 1
-        if [a[2][0], a[2][1]] == [matrix_size-1, matrix_size-1]:
+        a = queue.pop(0)
+        print(a)
+        if a == [matrix_size-1, matrix_size-1]:
             return visited[matrix_size-1][matrix_size-1]-1
         for i in range(4):
-            y = a[2][0]
-            x = a[2][1]
+            y = a[0]
+            x = a[1]
             idy = y+dy[i]
             idx = x+dx[i]
             if 0 <= idy < matrix_size and 0 <= idx < matrix_size:
                 if not visited[idy][idx]:
-                    visited[idy][idx] = visited[y][x] + matrix[y][x]
-                    queue.put((matrix[idy][idx], count, [idy, idx]))
+                    visited[idy][idx] = 1
+                    if queue:
+                        if matrix[idy][idx] < matrix[queue[0][0]][queue[0][1]]:
+                            queue = [[idy, idx]]+queue
+                        else:
+                            queue.append([idy, idx])
+                    else:
+                        queue.append([idy, idx])
+        for v in visited:
+            print(v)
+        print()
+
 
 
 T = int(input())
-# T = 4
+T = 1
 for test_case in range(1, T+1):
     matrix_size = int(input())
     matrix = [list(map(int, input())) for _ in range(matrix_size)]
