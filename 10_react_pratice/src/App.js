@@ -1,43 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 
 
-class Clock extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {date: new Date()};
-  }
-  componentDidMount() {
-    this.timerID = setInterval(
-      () => this.tick(),
-      1000
-    );
-  }
+const Counter = () => {
+  const [value, setValue] = useState(0);
 
-  componentWillUnmount() {
-    clearInterval(this.timerID);
-  }
-
-  tick() {
-    this.setState({
-      date: new Date()
-    });
-  }
-
-
-  render() {
-    return (
-      <div>
-        <h1>Hello, world!</h1>
-        <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
-      </div>
-    );
-  }
+  return (
+    <div>
+      <p>
+        현재 카운터 값은 <b>{value}</b>입니다.
+      </p>
+      <button onClick={() => setValue(value+1)}>+</button>
+      <button onClick={() => setValue(value-1)}>-</button>
+    </div>
+  )
 }
+
 
 function App() {
   return (
     <div>
-      <Clock />
+      <Counter />
     </div>
   );
 }

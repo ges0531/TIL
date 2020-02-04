@@ -9,17 +9,19 @@ def BFS(start_node):
     visited[start_node[0]][start_node[1]] = 1
     while queue:
         a = queue.pop(0)
-        print(a)
+        visited[a[0]][a[1]] = 1
         if a == [matrix_size-1, matrix_size-1]:
-            return visited[matrix_size-1][matrix_size-1]-1
+            return memoization[matrix_size-1][matrix_size-1]
         for i in range(4):
             y = a[0]
             x = a[1]
             idy = y+dy[i]
             idx = x+dx[i]
             if 0 <= idy < matrix_size and 0 <= idx < matrix_size:
+                if matrix[idy][idx] + memoization[y][x] < memoization[idy][idx]:
+                    memoization[idy][idx] = matrix[idy][idx] + memoization[y][x]
                 if not visited[idy][idx]:
-                    visited[idy][idx] = 1
+                    memoization[idy][idx] = memoization[y][x]+matrix[idy][idx]
                     if queue:
                         if matrix[idy][idx] < matrix[queue[0][0]][queue[0][1]]:
                             queue = [[idy, idx]]+queue
@@ -27,9 +29,9 @@ def BFS(start_node):
                             queue.append([idy, idx])
                     else:
                         queue.append([idy, idx])
-        for v in visited:
-            print(v)
-        print()
+        # for m in memoization:
+        #     print(m)
+        # print()
 
 
 
@@ -40,5 +42,6 @@ for test_case in range(1, T+1):
     matrix = [list(map(int, input())) for _ in range(matrix_size)]
     dy = [0, 1, 0, -1]
     dx = [1, 0, -1, 0]
+    memoization = [[0]*matrix_size for _ in range(matrix_size)]
 
     print(BFS([0, 0]))
