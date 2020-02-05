@@ -152,4 +152,14 @@ https://lab.ssafy.com/SanghyunLee/algotips
 
 - Redux
   - 맨토스와 콜라를 분리하기 위한 것
-  - 
+
+
+
+## 200205
+
+- WebSocket 
+  - polling
+  - long polling
+    - 클라이언트가 보낼 수 있는 request의 한계가 있다
+  - striming
+  - webSocket
