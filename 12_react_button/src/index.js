@@ -1,40 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import { ButtonGroup, Divider, Button, Container } from "@material-ui/core";
 
-class CounterApp extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            count: 0
-        };
-    }
-
-    Add() {
-        this.setState({
-            count: this.state.count + 1
-        })
-    }
-
-    Minus() {
-        this.setState({
-            count: this.state.count - 1
-        })
-    }
-    
-    render() {
-        return (
-            <div>
-                <div>{this.state.count}</div>
-                <div>
-                    <button onClick={() => this.Add()}>+</button>
-                    <button onClick={() => this.Minus()}>-</button>
-                </div>
-            </div>
-        );
-    }
+function App() {
+  return (
+    <Container maxWidth="sm">
+      <ButtonGroup>
+        <Button>강남구</Button>
+        <Button>서초구</Button>
+        <Button>동작구</Button>
+        <Button>관악구</Button>
+        <Button>금천구</Button>
+      </ButtonGroup>
+      <ButtonGroup>
+        <Button>수원시</Button>
+        <Button>용인시</Button>
+        <Button>화성시</Button>
+        <Button>시흥시</Button>
+        <Button>의정부시</Button>
+      </ButtonGroup>
+    </Container>
+  );
 }
 
-ReactDOM.render(
-    <CounterApp />,
-    document.querySelector('#root')
-)
+ReactDOM.render(<App />, document.querySelector("#root"));
