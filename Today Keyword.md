@@ -188,3 +188,23 @@ https://lab.ssafy.com/SanghyunLee/algotips
 안풀리면 그 문제 개념 찾아보기
 
 다 풀고 다른사람 코드 보기
+
+
+
+
+
+## 200214
+
+- 배포
+  - java 설치(버전 확인)
+  - 외장 톰캣, 내장 톰캣
+  - apache tomcat 설치
+  - 내장 tomcat 이면 jar로 배포, 외장 tomcat 이면 WAR로 배포
+  - npm run build => js, css, html => 배포
+  - :8080 => 80번포트로 배포
+    - 외장 tomcat을 사용한다면 server.xml에서 설정
+    - iptable 80 => 8080 redirect 리부팅 시에 설정 날아감
+  - https 연결 설정
+    - ssl 인증서
+    - 443 포트 설정
+    - 
