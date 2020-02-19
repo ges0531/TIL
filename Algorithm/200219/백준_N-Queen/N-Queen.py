@@ -3,11 +3,25 @@ import sys
 sys.stdin = open('input.txt', 'r')
 
 
-def backtracking(start_node):
+# 한줄씩 재귀하며 DFS를 실행
+def dfs(x):
+    global result
+
+    if x == matrix_size:
+        result += 1
+        return
+
+    for i in range(matrix_size):
+        row[x] = i
+        for j in range(x):
+            if row[x] == row[j] or abs(row[x] - row[j]) == x - j:
+                break
+        else:
+            dfs(x + 1)
 
 
 matrix_size = int(input())
-matrix = [[0]*matrix_size for _ in range(matrix_size)]
-
-for column in range(matrix_size):
-    for row in range(matrix_size):
+row = [0] * matrix_size
+result = 0
+dfs(0)
+print(result)
