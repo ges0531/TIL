@@ -44,6 +44,6 @@ for test_case in range(1, T+1):
     visited = [[0] * N for _ in range(N)]
     search_road([0, 0],  matrix[0][0])
 
-    # for m in memoization:
-    #     print(m)
+    for m in memoization:
+        print(m)
     print('#{} {}'.format(test_case, my_min))
