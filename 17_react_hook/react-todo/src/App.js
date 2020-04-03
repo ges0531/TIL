@@ -34,8 +34,6 @@ import "./App.css";
 
 // export default App;
 
-
-
 ///////////////////////////////////////////// useTabs
 
 // const content = [
@@ -96,7 +94,6 @@ import "./App.css";
 
 // export default App;
 
-
 /////////////////////////////////// useRef
 
 // const App = () => {
@@ -114,27 +111,112 @@ import "./App.css";
 
 ////////////////////////////////////// useClick
 
+// const useClick = (onClick) => {
+//   // if(typeof onClick !== "function") {
+//   //   return ;
+//   // }
+//   const element = useRef()
+//   useEffect(() => {
+//     if (element.current) {
+//       element.current.addEventListener("click", onClick)
+//     }
+//     return () => element.current.removeEventListener("click", onClick)
+//   }, [])
+//   return element
+// }
 
-const useClick = (onClick) => {
-  // if(typeof onClick !== "function") {
-  //   return ;
-  // }
-  const element = useRef()
-  useEffect(() => {
-    if (element.current) {
-      element.current.addEventListener("click", onClick)
-    }
-    return () => element.current.removeEventListener("click", onClick)
-  }, [])
-  return element
+// const App = () => {
+//   const sayHello = () => console.log("say hello")
+//   const title = useClick(sayHello)
+//   return (
+//     <div className="App">
+//       <h1 ref={title}>Hello</h1>
+//     </div>
+//   );
+// };
+
+// export default App;
+
+//////////////////////////////////////////// useHover
+
+// const useHover = (onHover) => {
+//   // if(typeof onClick !== "function") {
+//   //   return ;
+//   // }
+//   const element = useRef()
+//   useEffect(() => {
+//     if (element.current) {
+//       element.current.addEventListener("mouseenter", onHover)
+//     }
+//     return () => element.current.removeEventListener("mouseenter", onHover)
+//   }, [])
+//   return element
+// }
+
+// const App = () => {
+//   const sayHello = () => console.log("say hello")
+//   const title = useHover(sayHello)
+//   return (
+//     <div className="App">
+//       <h1 ref={title}>Hello</h1>
+//     </div>
+//   );
+// };
+
+// export default App;
+
+//////////////////////////////////////////// useConfirm
+
+// const useConfirm = (message = "", onConfirm, onCancel) => {
+//   if (!onConfirm && typeof onConfirm !== "function") {
+//     return;
+//   }
+//   if (onCancel && typeof onCancel !== "function") {
+//     return;
+//   }
+//   const confirmAction = () => {
+//     if (window.confirm(message)) {
+//       onConfirm();
+//     } else {
+//       onCancel();
+//     }
+//   };
+//   return confirmAction;
+// };
+
+// const App = () => {
+//   const deleteWorld = () => console.log("Deleting the world");
+//   const abort = () => console.log("Aborted");
+//   const confirmDelete = useConfirm("Are you sure", deleteWorld, abort);
+//   return (
+//     <div className="App">
+//       <h1>Hello</h1>
+//       <button onClick={confirmDelete}>Delete the world</button>
+//     </div>
+//   );
+// };
+
+// export default App;
+
+
+/////////////////////////////////////// usePreventLeave
+
+const usePreventLeave = () => {
+  const listener = event => {
+    event.preventDefault();
+    event.returnValue = "";
+  }
+  const enablePrevent = () => window.addEventListener("beforeunload", listener)
+  const disablePrevent = () => window.removeEventListener("beforeunload", listener)
+  return { enablePrevent, disablePrevent }
 }
-
 const App = () => {
-  const sayHello = () => console.log("say hello")
-  const title = useClick(sayHello)
+  const { enablePrevent, disablePrevent } = usePreventLeave()
   return (
     <div className="App">
-      <h1 ref={title}>Hello</h1>
+      <h1>Hello</h1>
+      <button onClick={enablePrevent}>Protect</button>
+      <button onClick={disablePrevent}>Unprotect</button>
     </div>
   );
 };
