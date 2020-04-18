@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
+import ReactFullpage from '@fullpage/react-fullpage';
 
 ////////////////////////////////////////// useInput
 
@@ -201,22 +202,60 @@ import "./App.css";
 
 /////////////////////////////////////// usePreventLeave
 
-const usePreventLeave = () => {
-  const listener = event => {
-    event.preventDefault();
-    event.returnValue = "";
-  }
-  const enablePrevent = () => window.addEventListener("beforeunload", listener)
-  const disablePrevent = () => window.removeEventListener("beforeunload", listener)
-  return { enablePrevent, disablePrevent }
-}
+// const usePreventLeave = () => {
+//   const listener = event => {
+//     event.preventDefault();
+//     event.returnValue = "";
+//   }
+//   const enablePrevent = () => window.addEventListener("beforeunload", listener)
+//   const disablePrevent = () => window.removeEventListener("beforeunload", listener)
+//   return { enablePrevent, disablePrevent }
+// }
+// const App = () => {
+//   const { enablePrevent, disablePrevent } = usePreventLeave()
+//   return (
+//     <div className="App">
+//       <h1>Hello</h1>
+//       <button onClick={enablePrevent}>Protect</button>
+//       <button onClick={disablePrevent}>Unprotect</button>
+//     </div>
+//   );
+// };
+
+// export default App;
+
+/////////////////////////////////////////////////////////
+
+
+
+const Fullpage = () => (
+  <ReactFullpage
+    //fullpage options
+    licenseKey = {'YOUR_KEY_HERE'}
+    scrollingSpeed = {1000} /* Options here */
+
+    render={({ state, fullpageApi }) => {
+      return (
+        <ReactFullpage.Wrapper>
+          <div className="section">
+            <p>Section 1 (welcome to fullpage.js)</p>
+            <button onClick={() => fullpageApi.moveSectionDown()}>
+              Click me to move down
+            </button>
+          </div>
+          <div className="section">
+            <p>Section 2</p>
+          </div>
+        </ReactFullpage.Wrapper>
+      );
+    }}
+  />
+);
+
 const App = () => {
-  const { enablePrevent, disablePrevent } = usePreventLeave()
   return (
     <div className="App">
-      <h1>Hello</h1>
-      <button onClick={enablePrevent}>Protect</button>
-      <button onClick={disablePrevent}>Unprotect</button>
+      <Fullpage />
     </div>
   );
 };
