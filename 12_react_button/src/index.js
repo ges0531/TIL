@@ -1,25 +1,38 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { ButtonGroup, Divider, Button, Container } from "@material-ui/core";
 
-function App() {
+class ImageUploadCard extends React.Component {
+  handleUploadClick = event => {
+    state = {
+      mainState: "initial", // initial, search, gallery, uploaded
+      imageUploaded: 0,
+      selectedFile: null
+    };
+    console.log();
+    var file = event.target.files[0];
+    const reader = new FileReader();
+    var url = reader.readAsDataURL(file);
+
+    reader.onloadend = function(e) {
+      this.setState({
+        selectedFile: [reader.result]
+      });
+    }.bind(this);
+    console.log(url); // Would see a path?
+
+    this.setState({
+      mainState: "uploaded",
+      selectedFile: event.target.files[0],
+      imageUploaded: 1
+    });
+  };
+
   return (
-    <Container maxWidth="sm">
-      <ButtonGroup>
-        <Button>강남구</Button>
-        <Button>서초구</Button>
-        <Button>동작구</Button>
-        <Button>관악구</Button>
-        <Button>금천구</Button>
-      </ButtonGroup>
-      <ButtonGroup>
-        <Button>수원시</Button>
-        <Button>용인시</Button>
-        <Button>화성시</Button>
-        <Button>시흥시</Button>
-        <Button>의정부시</Button>
-      </ButtonGroup>
-    </Container>
+    <div>
+      <input accept="image/*"
+              type="file"
+              onChange={handleUploadClick} />
+    </div>
   );
 }
 
